@@ -10,7 +10,7 @@ substituted into `snippets/error_pages.conf` automatically (the
 the current directory).
 
 ```bash
-git clone https://github.com/denysvitali/nginx-error-pages
+git clone https://github.com/etng/nginx-error-pages
 cd nginx-error-pages
 make   # regenerates the error pages AND snippets/error_pages.conf with the right root
 sudo mkdir -p /etc/nginx/snippets/
